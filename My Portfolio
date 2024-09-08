@@ -1,0 +1,159 @@
+#Html code
+*******************************************************************************************
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Lakshmi Prasanna Thellapelli</h1>
+        <p>Web Developer | front-end Developer</p>
+    </header>
+
+    <section id="about">
+        <img src="C:\Users\tplax\OneDrive\Pictures\Saved Pictures\passphoto.jpg" alt="Lakshmi Prasanna">
+        <h2>Graduated Fresher</h2>
+        <p>A passionate Web Developer with a entry level-experience specializing in front-end development and Java Python SQL.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>SQL</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1 - Cafe Menu</h3>
+            <img src="C:\Users\tplax\OneDrive\Pictures\Screenshots\Screenshot (101).png" alt="Cafe Menu">
+            <p>Designed and coded a responsive website for a Cafe.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2 - Survey Form</h3>
+            <img src="C:\Users\tplax\OneDrive\Pictures\Screenshots\Screenshot (102).png" alt="Survey Form">
+            <p> Developed a Html CSS responsive survey form showcasing my work.
+            </p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="C:\Users\tplax\OneDrive\Pictures\Documents\Lakshmi prasanna.pdf" download>Download My Resume (PDF)</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: tplaxmi03@gmail.com</p>
+        <p>Phone: +91767******9</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lakshmi Prasanna Thellapelli. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+*******************************************************************************************************************************************************
+
+#CSS Code
+*********
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    background-color: #fbfbfa;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 0.1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0.3em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+section {
+    padding: em;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+#about img {
+    border-radius: 20%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background-color: #333;
+    color: white;
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.project {
+    margin-bottom: 2em;
+}
+
+.project img {
+    max-width: 30%;
+    height: auto;
+}
+
+#resume a {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#contact p {
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
