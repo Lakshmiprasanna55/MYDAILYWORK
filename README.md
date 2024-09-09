@@ -1,5 +1,5 @@
 
-# CodSoft-WebDevelopment-Internship
+# MyDailyWork-WebDevelopment-Internship
 
 (Level 1)
 
